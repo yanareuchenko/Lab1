@@ -86,7 +86,7 @@
 ```mermaid
 graph TD
     A([Начало]) --> B[/Ввести: X, A, B, C/]
-    B --> C{X < A OR X < B OR X < c}
+    B --> C{X < A OR X < B OR X < C}
     C -- Да --> D[/Вывод: Ошибка/]
     D --> Z
     C -- Нет --> F{X >= A+B+C}
